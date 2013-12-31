@@ -1,5 +1,5 @@
 
-
+<!--临时导航文件-->
 <?php include("common/tempnav.html"); ?>
 
 <!-- 公共头部开始  -->
