@@ -12,7 +12,6 @@
 -->
 
 <!-- 下面这是预览页面使用的样式，不要上线 -->
-<link rel="stylesheet" href="/labs/v5/css/base.css" >
-<link rel="stylesheet" href="/labs/v5/css/common.css" >
-<link rel="stylesheet" href="/labs/v5/css/modules.css" >
-<link rel="stylesheet" href="/labs/css/propage.css" >
+<link rel="stylesheet" href="static/css/base.css" >
+<!-- <link rel="stylesheet" href="static/css/modules.css" > -->
+<link rel="stylesheet" href="css/propage.css" >

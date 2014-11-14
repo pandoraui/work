@@ -1,12 +1,37 @@
 
 /* ------------------------------------------------------------
-  Pro: propage样式
-  Create: 2013-12-01
-  Update: 2013-12-10
+  Pro: xinandai样式
+  Create: 2014-11-13
+  Update: 2014-11-14
 ------------------------------------------------------------ */
 
-body{font:12px/1.5 Tahoma,Arial,\5b8b\4f53,sans-serif;}
-.wrap{width:980px;}
+/*modules*/
+.btn{display: inline-block;padding:10px 20px;}
+a.btn:hover{text-decoration: none;}
+.btn-info{background: #00b050; color: #fff; font-size: 14px;}
+
+body{font:12px/22px \5b8b\4f53,Tahoma,Arial,sans-serif; color: #000;min-height:100%;}
+.wrap{width:1000px;}
+
+/* header */
+.tapbar{background: #f2f2f2;height: 24px;line-height: 24px;}
+.login—info{text-align: right;}
+.login—info a{color: #333;}
+.login—info a:hover{color: red;}
 
 
+.header{height:92px;}
+.header .wrap{position:relative;}
+.logo{position:absolute;top:10px;display:block;width: 150px;height:60px; background: url(../img/logo.png) no-repeat; text-indent:-9999px;}
+.header .quick-box{position: absolute;right:10px;top:10px;}
+.quick-box .btn{margin-left:20px;}
+.crumb{font-family:\5b8b\4f53;position: absolute;top:45px;left: 180px;}
 
+/*footer*/
+.footer-wrap{height:175px;margin:20 auto;}
+.footer-in{height:10px;padding:10px;visibility: hidden;}
+.footer{min-height: 100%; }
+.footer-info{position:absolute;width:100%;bottom:0;background: #c5d9f1;border-top:3px solid #0070c0;height: 160px;padding-top: 10px;}
+.footer p{margin: 10px;}
+.footer-link a{color:#333;padding:5px 20px 5px 0;}
+.footer-link a:hover{color:red;}
