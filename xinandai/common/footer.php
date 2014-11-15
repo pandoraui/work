@@ -2,17 +2,17 @@
 <!-- 通用底部 -->
 <div class="footer-wrap"><div class="footer-in"></div></div>
 <div class="footer">
-  <div class="footer-info">
-    <div class="wrap">
-      <p class="footer-link">
-        <a href="#">关于我们</a>
-        <a href="#">使用帮助</a>
-        <a href="#">免责声明</a>
-        <a href="#">联系我们</a>
-      </p>
-      <p>Copyright 2013 Yachedai.com 押车贷（www.yachedai.com) 沪ICP备13040656号 </p>
-    </div>
-  </div>
+      <div class="footer-info">
+            <div class="wrap">
+                <p class="footer-link">
+                    <a href="#">关于我们</a>
+                    <a href="#">使用帮助</a>
+                    <a href="#">免责声明</a>
+                    <a href="#">联系我们</a>
+                </p>
+                <p>Copyright 2013 Yachedai.com 押车贷（www.yachedai.com) 沪ICP备13040656号 </p>
+            </div>
+      </div>
 </div>
 
 

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>首页</title>
+<title>列表页</title>
 <meta name="keywords" content="页面关键字">
 <meta name="description" content="页面描述">
 <?php include("common/meta.php"); ?>
@@ -16,7 +16,7 @@
     <div class="wrapbox_1 clearfix">
         <div class="nav-tabs">
             <ul class="inline">
-                <li class="current"><a href="#">放款信息</a></li>
+                <li class="current"><a href="#">黄埔信用贷款</a></li>
             </ul>
         </div>
         <div class="side">
@@ -26,22 +26,10 @@
             <div class="list_a">
                 <?php include("el-list.php"); ?>
             </div> <!--//.list_a-->
-
+            
             <?php include("el-pages.php"); ?>
         </div>
     </div>
-
-    <div class="friend-links clearfix">
-        <div class="f-head">
-            <a href="#" class="link">申请友情链接</a>
-            <h4><b>友情链接</b></h4>
-        </div>
-        <div class="f-body">
-            <a target="_blank" href="#">银桥网</a>
-            <a target="_blank" href="#">银桥网</a>
-            <a target="_blank" href="#">银桥网</a>
-        </div>
-    </div> <!--//.friend-links-->
 </div>
 
 

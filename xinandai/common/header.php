@@ -1,4 +1,7 @@
 
+<!--临时导航文件-->
+<?php include("common/tempnav.html"); ?>
+
 <div class="tapbar">
     <div class="wrap">
         <div class="login—info">
