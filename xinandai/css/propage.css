@@ -6,12 +6,25 @@
 ------------------------------------------------------------ */
 
 /*modules*/
-.btn{display: inline-block;padding:10px 20px;}
+.btn{display: inline-block;padding:7px 20px;}
 a.btn:hover{text-decoration: none;}
 .btn-info{background: #00b050; color: #fff; font-size: 14px;}
+.btn-info:hover{color: #fff;}
+ul.inline{display: block;}
+ul.inline li{display: inline-block;*display: inline;*zoom:1;}
+ul.inline li a {display: block;}
+.dl-hor{overflow: hidden;}
+.dl-hor dt{float:left;display: inline;}
+.dl-hor dd{overflow: hidden;}
 
+/* public */
+html{height:100%;}
+body{min-height: 100%;_height:100%;position:relative;}
 body{font:12px/22px \5b8b\4f53,Tahoma,Arial,sans-serif; color: #000;min-height:100%;}
-.wrap{width:1000px;}
+.wrap{width:980px;}
+a{color:#000;}
+a:hover{text-decoration: none;color: red;}
+.red{color:red;}
 
 /* header */
 .tapbar{background: #f2f2f2;height: 24px;line-height: 24px;}
@@ -22,16 +35,75 @@ body{font:12px/22px \5b8b\4f53,Tahoma,Arial,sans-serif; color: #000;min-height:1
 
 .header{height:92px;}
 .header .wrap{position:relative;}
-.logo{position:absolute;top:10px;display:block;width: 150px;height:60px; background: url(../img/logo.png) no-repeat; text-indent:-9999px;}
-.header .quick-box{position: absolute;right:10px;top:10px;}
+.logo{position:absolute;top:15px;display:block;width: 150px;height:60px; background: url(../img/logo.png) no-repeat; text-indent:-9999px;}
+.header .quick-box{position: absolute;right:0;top:25px;}
 .quick-box .btn{margin-left:20px;}
 .crumb{font-family:\5b8b\4f53;position: absolute;top:45px;left: 180px;}
 
 /*footer*/
-.footer-wrap{height:175px;margin:20 auto;}
+.footer-wrap{height:175px;margin:20px auto 0;}
 .footer-in{height:10px;padding:10px;visibility: hidden;}
 .footer{min-height: 100%; }
 .footer-info{position:absolute;width:100%;bottom:0;background: #c5d9f1;border-top:3px solid #0070c0;height: 160px;padding-top: 10px;}
 .footer p{margin: 10px;}
 .footer-link a{color:#333;padding:5px 20px 5px 0;}
 .footer-link a:hover{color:red;}
+
+
+/* nav */
+.nav{border-bottom:3px solid #00b050;border-top:1px solid #d9d9d9;height: 36px;line-height: 36px;font-size: 14px;}
+.nav a:hover{color:#000;}
+.nav a:hover{ text-decoration: none;}
+.nav .current{margin-top:-1px;border-top:1px solid #00b050;background:#00b050;}
+.nav .item a{padding:0 30px;}
+.nav .current a,.nav .current a:hover{ color: #fff;}
+.nav .current a:hover{color:#fdfdfd; }
+.nav-main{float:left;}
+.nav-sub{float:right;}
+
+/* cate */
+.cate{border:1px solid #d9d9d9;border-top:none;padding:10px 10px 8px;margin-bottom: 20px;}
+.cate .cate-item{margin-bottom: 5px;}
+.cate dt,.cate dd{line-height: 28px;}
+.cate dt{width: 50px; text-align: right;margin-right: 20px;}
+.cate a{color:#0711df;display:inline-block;height:28px;line-height: 28px;margin-right: 6px;}
+.cate a:hover{color:red;}
+
+
+/* navbar */
+.nav-tabs{ overflow: hidden; border-bottom:3px solid #0070c0; background: #ecf2fa; height: 36px;line-height: 36px;font-size: 14px;}
+.nav-tabs ul{border:1px solid #d9d9d9; border-bottom: none;}
+.nav-tabs .current{margin-top:-1px;margin-left:-1px;border-top:1px solid #0070c0;background:#0070c0;}
+.nav-tabs a:hover{color:#000;}
+.nav-tabs .current a,.nav-tabs .current a:hover{ color: #fff;}
+.nav-tabs a{padding:0 15px;}
+
+
+/* list */
+.list_a{}
+.list_a .list-item{overflow: hidden;padding:20px 0 10px;border-bottom:1px solid #d9d9d9;}
+.list_a .list-item:hover{ background: #f9f9f9;}
+.list-item dt{float: left;display: inline;margin-right: 20px;}
+.list-item dt img{ background: #ccc;}
+.list-item h4{max-height: 42px;overflow: hidden;line-height:20px;}
+.list-item .tit{font-size: 16px;color: #0711df;font-weight: normal;}
+.list-item .tit:hover{color: red;}
+.list-item dd{overflow: hidden;}
+.list-item dd.fr{width:100px;text-align: center; height: 100%;}
+.list-item dd.set{width:80px;float: right;display: inline;text-align: center;}
+.list-item .info .it{display:inline-block;color: #01af01;width: 150px;}
+.list-item .sort,.list-item .date{display:block; text-align:center;}
+.list-item .sort{min-height:70px;color: #01af01; font-size: 14px;}
+.list-item p{line-height: 20px;overflow: hidden;margin-top: 3px;}
+
+/* wrapbox_1 */
+.wrapbox_1 .side{float:right; display: inline;margin-left:20px;width: 232px;padding-top: 20px;}
+.side .sidebox{border:1px solid #d9d9d9;height: 600px;}
+
+
+
+
+
+
+
+

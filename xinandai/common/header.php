@@ -24,13 +24,12 @@
 
 <div class="nav">
     <div class="wrap">
-        <ul class="nav-main">
-            <li><a href="#">上海贷款信息</a></li>
-            <li><a href="#">上海借款信息</a></li>
+        <ul class="inline nav-main">
+            <li class="item current"><a href="#">上海贷款信息</a></li>
+            <li class="item"><a href="#">上海借款信息</a></li>
         </ul>
-        <ul class="nav-sub">
-            <li><a href="#">用户中心</a></li>
-            <li><a href="#"></a></li>
+        <ul class="inline nav-sub">
+            <li class="item"><a href="#">用户中心</a></li>
         </ul>
     </div>
 </div>
