@@ -32,7 +32,7 @@ dfn{color:#f60;}
 i.req{font-style:normal;font-weight:normal;color:#f00;}
 .input-text{border:1px solid #ccc;height:20px;line-height:20px;padding:3px 5px;background-color:#fff;}
 .yahei{font-family:"Microsoft YaHei",\5FAE\8F6F\96C5\9ED1;font-weight:normal;}
-img{vertical-align: top;}
+img{vertical-align: middle;}
 
 
 /* public */
@@ -132,8 +132,6 @@ a:hover{text-decoration: none;color: red;}
 
 
 
-
-
 /* register */
 .register .nav,
 .register .quick-box,
@@ -149,7 +147,7 @@ a:hover{text-decoration: none;color: red;}
 .regtabs .current a:hover{color:#fdfdfd; }
 .regbox{border:1px solid #d9d9d9; border-top:none; padding:50px 20px;}
 
-.regbox{width:1000px;margin:0 auto;color:#333;}
+.regbox{}
 .xstep{text-align:center;margin:15px 0 10px;}
 .xbox li{margin:10px 0;overflow:hidden;padding-left:150px;line-height: 28px;}
 .regbox1 li{margin:15px 0;}
@@ -167,7 +165,7 @@ p.xinfo{display:inline-block;*display:inline;*zoom:1;padding-left:10px;line-heig
 .xbox .success,
 .xbox .error{display:none;}
 
-.regbox .xtextarea{width:492px;height:86px;border:1px solid #d0d0d0;padding:5px 5px;overflow-x:hidden;overflow-y:scroll;color:#9e9e9e;font-size:12px;line-height: 18px;}
+.regbox .xtextarea{width:492px;height:86px;border:1px solid #d0d0d0;padding:5px 5px;overflow-x:hidden;overflow-y:scroll;color:#888;font-size:12px;line-height: 18px;}
 
 .input-warning{border-color:#f0a307;}
 .input-error{border-color:#f8040c;}

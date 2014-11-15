@@ -21,22 +21,22 @@
             <ul class="ul-ver">
                 <li>
                     <label class="xlabel">手机号码<i class="req">*</i></label>
-                    <input id="username" type="text" class="input-text" />
+                    <input id="phone" type="text" class="input-text" />
                     <p class="xinfo">
                         <span class="default">请输入手机号，此作为您的登录帐号</span>
                         <span class="warning"><i class="icon icon-warning"></i>请填写正确的手机号</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
-                        <span class="error"><i class="icon icon-error"></i>输入错误</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
+                        <span class="error"><i class="icon icon-error"></i>输入有误</span>
                     </p>
                 </li>
                 <li>
                     <label class="xlabel">邮箱<i class="req">*</i></label>
                     <input id="email" type="text" class="input-text" />
                     <p class="xinfo">
-                        <span class="default">请填写常用邮箱地址，可作为自由联盟登录帐号</span>
+                        <span class="default">请填写常用邮箱地址，可作为登录帐号</span>
                         <span class="warning"><i class="icon icon-warning"></i>请填写正确的邮箱地址</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
-                        <span class="error"><i class="icon icon-error"></i>输入错误</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
+                        <span class="error"><i class="icon icon-error"></i>输入有误</span>
                     </p>
                 </li>
                 <li>
@@ -45,7 +45,7 @@
                     <p class="xinfo">
                         <span class="default">6-16个字符，请用英文字母加数字组合</span>
                         <span class="warning"><i class="icon icon-warning"></i>请填写6-16个密码</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
                         <span class="error"><i class="icon icon-error"></i>输入不符要求</span>
                     </p>
                 </li>
@@ -55,7 +55,7 @@
                     <p class="xinfo">
                         <span class="default">请再次输入密码</span>
                         <span class="warning"><i class="icon icon-warning"></i>请填写6-16个密码</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
                         <span class="error"><i class="icon icon-error"></i>输入不符要求</span>
                     </p>
                 </li>
@@ -65,28 +65,28 @@
                     <p class="xinfo">
                         <span class="default">请输入4-16个字符，中英文均可，一个中文为2个字符，推荐使用中文名</span>
                         <span class="warning"><i class="icon icon-warning"></i>请填写正确的邮箱地址</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
-                        <span class="error"><i class="icon icon-error"></i>输入错误</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
+                        <span class="error"><i class="icon icon-error"></i>输入有误</span>
                     </p>
                 </li>
                 <li>
-                    <label class="xlabel">真实姓名<i class="req">*</i></label>
+                    <label class="xlabel">真实姓名<i class="req"></i></label>
                     <input id="username" type="text" class="input-text" />
                     <p class="xinfo">
                         <span class="default"></span>
                         <span class="warning"><i class="icon icon-warning"></i>不能为空</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
-                        <span class="error"><i class="icon icon-error"></i>输入错误</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
+                        <span class="error"><i class="icon icon-error"></i>输入有误</span>
                     </p>
                 </li>
                 <li>
                     <label class="xlabel">所在机构<i class="req">*</i></label>
-                    <input id="username" type="text" class="input-text input-big" />
+                    <input id="agency" type="text" class="input-text input-big" />
                     <p class="xinfo">
                         <span class="default"></span>
                         <span class="warning"><i class="icon icon-warning"></i>不能为空</span>
-                        <span class="success"><i class="icon icon-success"></i>输入正确</span>
-                        <span class="error"><i class="icon icon-error"></i>输入错误</span>
+                        <span class="success"><i class="icon icon-success"></i>正确</span>
+                        <span class="error"><i class="icon icon-error"></i>输入有误</span>
                     </p>
                 </li>
                 <li>
@@ -105,10 +105,11 @@
                         <span class="default"></span>
                     </p>
                 </li>
-                <li class="pact"><label><input class="vm" type="checkbox"> 我已同意并阅读</label> <a class="agreement" href="javascript:;">《信安贷用户注册协议》</a></li>
+                <li class="pact hide"><label><input class="vm" type="checkbox"> 我已同意并阅读</label> <a class="agreement" href="javascript:;">《信安贷用户注册协议》</a></li>
                 <li class="btnbox">
-                    <a href="javascript:;" class="btn regbtn"><span>立即注册</span></a>
+                    <a href="javascript:;" class="btn regbtn"><span>已阅读并同意协议</span></a>
                 </li>
+                <li><a href="javascript:;" class="xlink">《信安贷用户注册协议》</a></li>
                 <li><textarea readonly class="xtextarea">信安贷致力于为广大网民提供专业的融资贷款搜索服务。以最人性最专业的方式为用户提供各种银行和出借机构贷款产品的搜索、比较服务。
 同时信安贷引入大量的银行业务人员，让用户和业务人员直接联系对接。打造一个全方位的满足用户和银行需求的融资贷款产品直销平台。
 任何与信安贷有意向签订协议或者已经达成合作协议的机构和渠道商，必须认真阅读该声明，并保持、接受和遵守该声明对自身权利和义务的约定。
@@ -137,23 +138,28 @@ $(function(){
     }
     
     //验证用户名
-    $("#username").focus(function(){
+    $("#phone").focus(function(){
         tipinfo(this,"warning","提示或警告信息");
     }).blur(function(){
         if($(this).val() == ""){
-            tipinfo(this,"error","用户名不能为空");
-        }
-        if($(this).val()){
-            tipinfo($("#username"),"success","输入正确");
+            tipinfo(this,"error","手机号不能为空");
+        }else if($(this).val()){
+            tipinfo(this,"success","正确");
         }
     })
     
     //验证邮箱
     $("#email").focus(function(){
-        tipinfo(this,"warning","提示信息");
+        if($(this).val() == ""){
+            tipinfo(this,"warning","请输入有效的邮箱地址");
+        }
     }).blur(function(){
         if($(this).val() == ""){
-            tipinfo(this,"error","邮箱不能为空");
+            tipinfo(this,"error","邮箱地址不能为空");
+        }else if( !/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/.test( $(this).val() ) ){
+            tipinfo(this,"error","请输入正确的邮箱地址");
+        }else{
+            tipinfo(this,"success","正确");
         }
     })
 
