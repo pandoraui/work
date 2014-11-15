@@ -44,7 +44,7 @@
         </dl>
     </div> <!--//.cate-->
 
-    <div class="wrapbox_1">
+    <div class="wrapbox_1 clearfix">
         <div class="nav-tabs">
             <ul class="inline">
                 <li class="current"><a href="#">借款信息</a></li>
@@ -52,8 +52,8 @@
             </ul>
         </div>
         <div class="side">
-            <div class="sidebox"></div>
-        </div>
+            <div class="sidebox"><img src="http://placehold.it/230x600&text=Ads+Region" alt=""></div>
+        </div> <!--//.side-->
         <div class="main">
             <div class="list_a">
                 <dl class="list-item">
@@ -80,8 +80,8 @@
                     <dd class="set"><span class="red">类别置顶</span></dd>
                     <dt><img src="http://placehold.it/130x75" width="130" height="75" alt=""></dt>
                     <dd>
-                        <h4><a href="#" class="tit">上海地区帮你处理资金问题,急需周转的联络我,工资卡退休金</a></h4>
-                        <p>上海国营企业,正规公司,信誉保障。 上海及外地机动车质押借款:可不押车 一、十万车借九万,贷</p>
+                        <h4><a href="#" class="tit">上海地区帮你处理资金问题,急需周转的联络我</a></h4>
+                        <p>上海国营企业,正规公司,信誉保障。 上海及外地机动车质押借款:可不押车</p>
                         <p class="info">
                             <span class="it">联系人：刘经理</span>
                             <span class="it">电话：13800990088</span>
@@ -96,8 +96,8 @@
                     <dd class="set"><span class="red">类别置顶</span></dd>
                     <dt><img src="http://placehold.it/130x75" width="130" height="75" alt=""></dt>
                     <dd>
-                        <h4><a href="#" class="tit">上海地区帮你处理资金问题,急需周转的联络我,工资卡退休金</a></h4>
-                        <p>上海国营企业,正规公司,信誉保障。 上海及外地机动车质押借款:可不押车 一、十万车借九万,贷</p>
+                        <h4><a href="#" class="tit">上海地区帮你处理资金问题,急需周转的联络我</a></h4>
+                        <p>上海国营企业,正规公司,信誉保障。 上海及外地机动车质押借款:可不押车</p>
                         <p class="info">
                             <span class="it">联系人：刘经理</span>
                             <span class="it">电话：13800990088</span>
@@ -110,7 +110,20 @@
             </div>
         </div>
     </div>
+
+    <div class="friend-links clearfix">
+        <div class="f-head">
+            <a href="#" class="link">申请友情链接</a>
+            <h4><b>友情链接</b></h4>
+        </div>
+        <div class="f-body">
+            <a target="_blank" href="#">银桥网</a>
+            <a target="_blank" href="#">银桥网</a>
+            <a target="_blank" href="#">银桥网</a>
+        </div>
+    </div>
 </div>
+
 
 
 <?php include("common/footer.php"); ?>
