@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>借款信息</title>
+<title>借款列表</title>
 <meta name="keywords" content="页面关键字">
 <meta name="description" content="页面描述">
 <?php include("common/meta.php"); ?>

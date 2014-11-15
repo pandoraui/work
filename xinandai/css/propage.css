@@ -52,6 +52,10 @@ a:hover{text-decoration: none;color: red;}
 .table-info .col-t{width:15%; text-align: center;}
 .table-info .col-info{min-height: 100px;_height:100px;}
 
+.table-center td{ text-align: center; }
+table.nobd th,
+table.nobd td{border:none;}
+
 /* header */
 .tapbar{background: #f2f2f2;height: 24px;line-height: 24px;}
 .login-info{text-align: right;}
@@ -131,19 +135,36 @@ a:hover{text-decoration: none;color: red;}
 /* wrapbox_1 */
 .wrapbox_1{/*margin-top:20px;*/margin-bottom: 20px;}
 .wrapbox_1 .side{float:right; display: inline;margin-left:20px;width: 232px;padding-top: 20px;}
-.side .sideimg{border:1px solid #d9d9d9;height: 600px;}
-.side .sideinfo{ background: #ecf2fa; min-height: 160px;_height:160px; padding:10px; font-size: 14px;}
+.side .side-img{border:1px solid #d9d9d9;height: 600px;margin-bottom: 20px;}
+.side .side-info{ background: #ecf2fa; min-height: 160px;_height:160px; padding:10px; font-size: 14px;}
 .main{overflow: hidden;}
 .article{margin-top: 20px;}
 .page-head{border-bottom:3px solid #00b050;height:40px;line-height: 36px;}
 .page-head h2{font-size: 22px;max-width: 80%;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
 .page-head .info{float: right; position: relative;top: 4px;}
+.side-oper{margin-bottom: 20px; border-top:3px solid #0070c0;}
+.side-oper .inner{ border: 1px solid #d9d9d9; border-top: none;}
+.side-oper .tit{ height: 36px; line-height: 36px; background: #f2f2f2;}
+.side-oper .tit h4{ background: #fff; display: inline-block; padding:0 20px; font-weight: normal; font-size: 14px;}
+.side-oper .content{padding:10px 20px; min-height: 180px; _height:180px;}
+
 
 /* costom page */
 .page .nav{display: none}
 .register .nav,
 .register .quick-box,
 .register .crumb{display: none;}
+
+/* page */
+.detail{margin:20px 0;}
+.d-head{border-bottom: 3px solid #0070c0; height:36px;line-height: 36px;}
+.d-head h3{ background: #0070c0; display: inline-block; padding:0 20px; font-size: 14px; color: #fff;}
+.detail .content{border: 1px solid #0070c0; padding:20px;}
+.detail .tit{border-bottom: 2px solid #bfbfbf; height: 30px; line-height: 30px; margin-bottom: 20px;}
+.detail .tit h4{padding-left: 10px;}
+.detail .tit i{color: #0070c0;font-weight: bold;display: inline-block;margin-right: 5px;}
+.detail .con{margin-bottom: 20px;padding:0 10px 10px;}
+
 
 /* register */
 .regtabs {border-bottom:3px solid #00b050;height: 36px;line-height: 36px;font-size: 14px;}

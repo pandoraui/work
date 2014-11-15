@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>列表页</title>
+<title>借款页面</title>
 <meta name="keywords" content="页面关键字">
 <meta name="description" content="页面描述">
 <?php include("common/meta.php"); ?>
@@ -20,17 +20,13 @@
 
     <div class="wrapbox_1 clearfix">
         <div class="side">
-            <div class="sidebox sideinfo">
+            <div class="sidebox side-info">
                 <p><strong>提示：</strong>1.在办理贷款等业务前请确认对方的资质，夸大的宣传和承诺不要轻信；2.任何要求预付定金、汇款至个人银行账户或网上交易等方式均存在风险，谨防上当受骗！</p>
             </div>
         </div> <!--//.side-->
         <div class="main">
             <div class="article">
                 <table class="table-info table-full" cellpadding="0" cellspacing="0">
-                    <colgroup class="col-t"></colgroup>
-                    <colgroup class="col-c"></colgroup>
-                    <colgroup class="col-t"></colgroup>
-                    <colgroup class="col-c"></colgroup>
                     <tr>
                         <td class="col-t">客户名称</td>
                         <td colspan="3">李先生</td>
