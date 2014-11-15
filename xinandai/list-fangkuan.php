@@ -8,7 +8,6 @@
 <?php include("common/meta.php"); ?>
 </head>
 <body>
-<div class="wrapper">
 <?php include("common/header.php"); ?>
 <div class="wrap">
     <?php include("el-cate.php"); ?>
@@ -35,6 +34,5 @@
 
 
 <?php include("common/footer.php"); ?>
-</div>
 </body>
 </html>

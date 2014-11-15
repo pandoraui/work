@@ -25,7 +25,8 @@
 -->
 
 <!-- jQuery以及通用js -->
-<!-- <script src="http://pic.lvmama.com/js/new_v/jquery-1.7.2.min.js"></script>
+<script src="/static/js/jquery-1.7.2.min.js"></script>
+<!--
 <script src="http://pic.lvmama.com/js/common/footer.js"></script> -->
 
 <!-- 页面项目js及插件 -->

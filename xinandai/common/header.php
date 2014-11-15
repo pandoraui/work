@@ -1,6 +1,6 @@
 
 <!--临时导航文件-->
-<?php include("common/tempnav.html"); ?>
+<?php include("/common/tempnav.html"); ?>
 
 <div class="tapbar">
     <div class="wrap">

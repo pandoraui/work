@@ -6,9 +6,9 @@
 ------------------------------------------------------------ */
 
 /*modules*/
-.btn{display: inline-block;padding:7px 20px;}
+.btn{display: inline-block; text-decoration: none;}
 a.btn:hover{text-decoration: none;}
-.btn-info{background: #00b050; color: #fff; font-size: 14px;}
+.btn-info{padding:7px 20px;background: #00b050; color: #fff; font-size: 14px;}
 .btn-info:hover{color: #fff;}
 ul.inline{display: block;}
 ul.inline li{display: inline-block;*display: inline;*zoom:1;}
@@ -16,6 +16,24 @@ ul.inline li a {display: block;}
 .dl-hor{overflow: hidden;}
 .dl-hor dt{float:left;display: inline;}
 .dl-hor dd{overflow: hidden;}
+.ul-hor:after,
+.ul-ver:after,
+.dl-hor:after,
+.dl-ver:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.ul-hor,.ul-ver,.dl-hor,.dl-ver{zoom:1}
+dl.dl-ver dt,
+dl.dl-ver dd{display:block;font-weight:normal;}
+dl.dl-hor dt{float:left;display:inline;margin-right:10px;}
+dl.dl-hor dd{overflow:hidden;}
+a:active{outline:none;}
+.num,.price,dfn{font-style:normal;font-family:Arial,sans-serif}
+dfn{color:#f60;}
+
+i.req{font-style:normal;font-weight:normal;color:#f00;}
+.input-text{border:1px solid #ccc;height:20px;line-height:20px;padding:3px 5px;background-color:#fff;}
+.yahei{font-family:"Microsoft YaHei",\5FAE\8F6F\96C5\9ED1;font-weight:normal;}
+img{vertical-align: top;}
+
 
 /* public */
 html{height:100%;}
@@ -26,6 +44,7 @@ a[href='###'],a[href='###']:hover{color:#333;}
 a{color:#0711df;}
 a:hover{text-decoration: none;color: red;}
 .red{color:red;}
+.icon{background:url(../img/tipicon.png) -9999px -9999px no-repeat;}
 
 /* header */
 .tapbar{background: #f2f2f2;height: 24px;line-height: 24px;}
@@ -62,8 +81,8 @@ a:hover{text-decoration: none;color: red;}
 
 /* nav */
 .nav{border-bottom:3px solid #00b050;border-top:1px solid #d9d9d9;height: 36px;line-height: 36px;font-size: 14px;}
-.nav a:hover{color:#000;}
-.nav a:hover{ text-decoration: none;}
+.nav a{color:#000;}
+.nav a:hover{ text-decoration: none; color: #000;}
 .nav .current{margin-top:-1px;border-top:1px solid #00b050;background:#00b050;}
 .nav .item a{padding:0 30px;}
 .nav .current a,.nav .current a:hover{ color: #fff;}
@@ -115,5 +134,51 @@ a:hover{text-decoration: none;color: red;}
 
 
 
+/* register */
+.register .nav,
+.register .quick-box,
+.register .crumb{display: none;}
 
+.regtabs {border-bottom:3px solid #00b050;height: 36px;line-height: 36px;font-size: 14px;}
+.regtabs a{color:#000;}
+.regtabs a:hover{ text-decoration: none; color: #000;}
+.regtabs li{ background: #ebf1de;margin-right: 20px;}
+.regtabs .current{margin-top:-1px;border-top:1px solid #00b050;background:#00b050;}
+.regtabs li a{padding:0 35px;}
+.regtabs .current a,.regtabs .current a:hover{ color: #fff;}
+.regtabs .current a:hover{color:#fdfdfd; }
+.regbox{border:1px solid #d9d9d9; border-top:none; padding:50px 20px;}
+
+.regbox{width:1000px;margin:0 auto;color:#333;}
+.xstep{text-align:center;margin:15px 0 10px;}
+.xbox li{margin:10px 0;overflow:hidden;padding-left:150px;line-height: 28px;}
+.regbox1 li{margin:15px 0;}
+.xbox li .xlabel{float:left;display:inline;margin-left:-150px;width:145px;padding-right:5px;text-align:right;height:28px;line-height:26px;}
+.xbox .xlabel .req{display:inline-block;width:16px;text-align:right;font-size:14px;position:relative;top:1px;}
+.xbox .input-text{width:168px;vertical-align:middle; height: 28px; line-height: 28px;}
+.xbox .input-big{width: 330px;}
+p.xinfo{display:inline-block;*display:inline;*zoom:1;padding-left:10px;line-height:28px;vertical-align:top;vertical-align:middle;}
+.regbtn{width:190px; height:36px; line-height: 36px; text-align: center; background: #00b050; color: #fff; font-size: 14px;}
+.regbtn:hover{color: #fff;}
+.regbtn span{width:160px;}
+.regbox .pact{margin: 40px 0 20px;}
+.regbox .btnbox{margin:20px 0;}
+.xbox .warning,
+.xbox .success,
+.xbox .error{display:none;}
+
+.regbox .xtextarea{width:492px;height:86px;border:1px solid #d0d0d0;padding:5px 5px;overflow-x:hidden;overflow-y:scroll;color:#9e9e9e;font-size:12px;line-height: 18px;}
+
+.input-warning{border-color:#f0a307;}
+.input-error{border-color:#f8040c;}
+.regbox .icon{display:inline-block;vertical-align:text-top;width:16px;height:16px;position:relative;top:-2px;margin-right:10px;}
+.icon-warning{background-position:0 0;}
+.icon-success{background-position:0 -20px;}
+.icon-error   {background-position:0 -40px;}
+.tipbox{color:#333;}
+.tipbox .icon{display:inline-block;width:26px;height:26px;float:left;display:inline;margin-left:-40px;margin-top:3px;}
+.tip-warning .icon-warning{background-position:0 -60px;}
+
+.verifyphone{background: #f56f0b;width: 126px;height: 36px;line-height: 36px; text-align: center; font-weight: bold;color: #fff;}
+.verifyphone:hover{color: #fff;}
 
