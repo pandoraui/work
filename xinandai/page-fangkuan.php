@@ -7,7 +7,7 @@
 <meta name="description" content="页面描述">
 <?php include("common/meta.php"); ?>
 </head>
-<body>
+<body class="page">
 <?php include("common/header.php"); ?>
 <div class="wrap">
     <?php include("el-cate.php"); ?>
@@ -27,8 +27,8 @@
             </div> <!--//.list_a-->
             
             <?php include("el-pages.php"); ?>
-        </div> <!--//.main-->
-    </div> <!--//.wrapbox_1-->
+        </div>
+    </div>
 </div>
 
 

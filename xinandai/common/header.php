@@ -4,7 +4,7 @@
 
 <div class="tapbar">
     <div class="wrap">
-        <div class="login—info">
+        <div class="login-info">
             <a href="#" class="link-login">登录</a> | <a href="#" class="link-reg">注册</a>
         </div>
         <!-- <div class="logined">

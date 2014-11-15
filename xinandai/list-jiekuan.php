@@ -27,8 +27,9 @@
             </div> <!--//.list_a-->
             
             <?php include("el-pages.php"); ?>
-        </div>
-    </div>
+        </div> <!--//.main-->
+        
+    </div> <!--//.wrapbox_1-->
 </div>
 
 
