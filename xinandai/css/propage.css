@@ -39,7 +39,7 @@ img{vertical-align: middle;}
 html{height:100%;}
 body{min-height: 100%;_height:100%;position:relative;}
 body{font:12px/22px \5b8b\4f53,Tahoma,Arial,sans-serif; color: #000;min-height:100%;}
-.wrap{width:980px;}
+.wrap{width:1000px;}
 a[href='###'],a[href='###']:hover{color:#333;}
 a{color:#0711df;}
 a:hover{text-decoration: none;color: red;}
@@ -49,11 +49,15 @@ a:hover{text-decoration: none;color: red;}
 table td{ text-align: left;}
 .table-full{width: 100%;}
 .table-info{  border-collapse: collapse; line-height: 22px;}
+th{ text-align: center;}
+.table-info th{background: #f2f2f2;}
+.table-center td{ text-align: center; }
 .table-info th,.table-info td{border: 1px solid #d9d9d9;padding:6px 10px;}
 .table-info .col-t{width:15%; text-align: center;}
+.table-info .col-c{width:40%;}
 .table-info .col-info{min-height: 100px;_height:100px;}
+.table-info .oper{text-align: center;}
 
-.table-center td{ text-align: center; }
 table.nobd th,
 table.nobd td{border:none;}
 .line-a{margin:10px 0;border-bottom: 3px solid #0070c0; height: 0; line-height: 0;overflow: hidden;clear: both;}
@@ -72,7 +76,7 @@ table.nobd td{border:none;}
 .crumb{font-family:\5b8b\4f53;position: absolute;top:45px;left: 180px;}
 
 /*footer*/
-.footer-wrap{height:175px;margin:20px auto 0;}
+.footer-wrap{height:190px;margin:10px auto 0;}
 .footer-in{height:10px;padding:10px;visibility: hidden;}
 .footer{min-height: 100%; }
 .footer-info{position:absolute;width:100%;bottom:0;background: #c5d9f1;border-top:3px solid #0070c0;height: 160px;padding-top: 10px;}
@@ -131,7 +135,8 @@ table.nobd td{border:none;}
 .list-item dd.set{width:80px;float: right;display: inline;text-align: center;}
 .list-item .info .it{display:inline-block;color: #01af01;width: 150px;}
 .list-item .sort,.list-item .date{display:block; text-align:center;}
-.list-item .sort{min-height:60px;_height:60px;color: #01af01; font-size: 14px;}
+.list-item .sort{min-height:40px;_height:40px;color: #01af01; font-size: 14px;}
+.list-item .date{margin-top: 20px; }
 .list-item p{line-height: 20px;overflow: hidden;margin-top: 3px;}
 
 /* wrapbox_1 */
@@ -174,6 +179,29 @@ table.nobd td{border:none;}
 .loan-info dd td{padding:4px 10px 0 0;}
 .loan-info dd .col-t{width:70px; text-align: left;}
 .loan-info .line-a{margin:20px 0;}
+
+
+/* user */
+.user-info{margin-top:20px;font-size: 14px;}
+.aside{float: left;width:170px;display:inline;margin-right: 20px;border-top: 3px solid #0070c0;}
+.nav-user{border: 1px solid #d9d9d9; padding:2px 0 3px;}
+.nav-user h3,.nav-user a{text-align: center;font-size:14px;height:36px;line-height: 36px;padding:0 20px;}
+.nav-user h3{color: #0070c0;font-weight: bold; background: #f9f9f9;}
+.nav-user .content{overflow: hidden;}
+.nav-user a{color:#000;display: block;padding: 0 20px;}
+.nav-user a:hover{color:red}
+.nav-user a span{display: block;border-top:1px solid #d9d9d9; margin-top: -1px;}
+
+.cbox{border:1px solid #d9d9d9; padding:10px 20px 60px;}
+.c-head{border-bottom: 3px solid #0070c0;height: 40px;line-height: 36px;margin-bottom: 20px;}
+.c-head h2{font-size: 14px;}
+.cbox .textarea{width: 95%;min-height: 60px;padding:5px 10px;}
+.upload-logo{min-height: 60px; _height:60px; }
+
+
+
+
+
 
 
 /* register */

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>用户中心</title>
+<title>用户中心-发布放款信息</title>
 <meta name="keywords" content="页面关键字">
 <meta name="description" content="页面描述">
 <?php include("common/meta.php"); ?>
@@ -27,7 +27,7 @@
         </div>
         <div class="main">
             <div class="cbox">
-                <div class="c-head"><h2>用户中心——发布借款信息</h2></div>
+                <div class="c-head"><h2>用户中心——发布放款信息</h2></div>
                 <div class="content">
                     <table class="table-info table-full" cellpadding="0" cellspacing="0">
                         <tr>
