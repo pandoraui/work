@@ -11,13 +11,13 @@
 <?php include("common/header.php"); ?>
 <div class="wrap">
     <div class="regtabs">
-        <ul class="inline">
+        <ul class="inline J_tabs">
             <li class="current"><a href="javascript:;">放款用户</a></li>
             <li><a href="javascript:;">借款用户</a></li>
         </ul>
     </div>
-    <div class="main regbox">
-        <div class="xbox regbox1">
+    <div class="main regbox JS_tabsbox">
+        <div class="xbox regbox1 tab_con">
             <ul class="ul-ver">
                 <li>
                     <label class="xlabel">手机号码<i class="req">*</i></label>
@@ -121,18 +121,33 @@
 6. 信贷机构或信贷员在收到借款人的申请资料后及时与借款申请人取得联系，确保服务质量。
 7. 信贷机构或信贷员提供的信息必须是真实的，且其披露该等信息已获得完全的授权，不侵犯任何其他第三方权益。否则，产生的后果由其自行承担。 
 8. 信贷机构或信贷员理解，为申请获得信安贷服务，您应向我们提供您的个人信息和贷款信息，为向您提供服务之目的，我们须向第三方透露您的个人信息和贷款信息。您特此向我们授权，我们有权使用您的个人信息、贷款信息、您申请服务时提供的任何相关信息和您在使用服务时储存在信安贷的公开及非公开内容。
-9. 除本使用协议外，信贷机构和信贷员必须遵守《信安贷网站用户协议条款》的约定。</textarea></li>
+9. 除本使用协议外，信贷机构和信贷员必须遵守《信安贷网站用户协议条款》的约定。</textarea>
+                </li>
             </ul>
             
             
-        </div>
-    </div>
+        </div> <!--//.tab_con-->
+        <div class="xbox regbox1 tab_con">
+            借款用户注册
+        </div> <!--//.tab_con-->
+    </div> <!--//.regbox .JS_tabsbox-->
 </div>
 
 
 <?php include("common/footer.php"); ?>
 <script>
 $(function(){
+    function JS_tab_nav(tab_nav,tab_con,selected,tri_type){
+        $tab_obj=$(tab_nav);
+        $tab_obj.bind(tri_type,function(){
+            var tab_li_index = $(tab_nav).index(this);
+            $(this).addClass(selected).siblings().removeClass(selected);
+            $(tab_con).eq(tab_li_index).show().siblings().hide();
+        });
+    };
+    JS_tab_nav(".J_tabs>li",".JS_tabsbox>.tab_con","current","click");
+
+
     function tipinfo(that,tiptype,tipinfo){
         $(that).attr("class","input-text input-"+tiptype).next("p").find("."+ tiptype).html('<i class="icon icon-'+ tiptype +'"></i>'+tipinfo).show().siblings("span").hide();
     }
@@ -146,7 +161,7 @@ $(function(){
         }else if($(this).val()){
             tipinfo(this,"success","正确");
         }
-    })
+    });
     
     //验证邮箱
     $("#email").focus(function(){
@@ -161,7 +176,7 @@ $(function(){
         }else{
             tipinfo(this,"success","正确");
         }
-    })
+    });
 
 })
 </script>
