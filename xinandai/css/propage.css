@@ -10,7 +10,7 @@
 a.btn:hover{text-decoration: none;}
 .btn-info{padding:7px 20px;background: #00b050; color: #fff; font-size: 14px;}
 .btn-info:hover{color: #fff;}
-ul.inline{display: block;}
+ul.inline,dl.inline{display: block;}
 ul.inline li{display: inline-block;*display: inline;*zoom:1;}
 ul.inline li a {display: block;}
 .dl-hor{overflow: hidden;}
@@ -46,6 +46,7 @@ a:hover{text-decoration: none;color: red;}
 .red{color:red;}
 .icon{background:url(../img/tipicon.png) -9999px -9999px no-repeat;}
 
+table td{ text-align: left;}
 .table-full{width: 100%;}
 .table-info{  border-collapse: collapse; line-height: 22px;}
 .table-info th,.table-info td{border: 1px solid #d9d9d9;padding:6px 10px;}
@@ -55,6 +56,7 @@ a:hover{text-decoration: none;color: red;}
 .table-center td{ text-align: center; }
 table.nobd th,
 table.nobd td{border:none;}
+.line-a{margin:10px 0;border-bottom: 3px solid #0070c0; height: 0; line-height: 0;overflow: hidden;clear: both;}
 
 /* header */
 .tapbar{background: #f2f2f2;height: 24px;line-height: 24px;}
@@ -164,6 +166,14 @@ table.nobd td{border:none;}
 .detail .tit h4{padding-left: 10px;}
 .detail .tit i{color: #0070c0;font-weight: bold;display: inline-block;margin-right: 5px;}
 .detail .con{margin-bottom: 20px;padding:0 10px 10px;}
+
+.loan-info{border:1px solid #d9d9d9; padding:10px 20px; margin-bottom: 20px;}
+.loan-info dt{margin-right: 20px;}
+.loan-info dd h3{font-size: 20px; line-height: 30px;}
+.loan-info p{margin: 10px 0; font-size: 14px;}
+.loan-info dd td{padding:4px 10px 0 0;}
+.loan-info dd .col-t{width:70px; text-align: left;}
+.loan-info .line-a{margin:20px 0;}
 
 
 /* register */

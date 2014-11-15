@@ -49,53 +49,55 @@
         </div> <!--//.side-->
         <div class="main">
             <div class="article">
-                <table class="table-info table-full" cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td class="col-t">客户名称</td>
-                        <td colspan="3">李先生</td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">联系电话</td>
-                        <td colspan="3">13800990088</td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">QQ/MSN</td>
-                        <td></td>
-                        <td class="col-t">E-MAIL</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">工作时间</td>
-                        <td></td>
-                        <td class="col-t">职务</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">是否有房</td>
-                        <td></td>
-                        <td class="col-t">单位性质</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">是否有车</td>
-                        <td></td>
-                        <td class="col-t">是否交金</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">信用情况</td>
-                        <td colspan="3"></td>
-                    </tr>
-                    <tr>
-                        <td class="col-t">详细说明</td>
-                        <td colspan="3"></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2" colspan="4">
-                            <div class="col-info"></div>
-                        </td>
-                    </tr>
-                </table>
+                <div class="loan-info">
+                    <dl class="dl-hor">
+                        <dt><img src="http://placehold.it/170x90" width="170" height="90" alt=""></dt>
+                        <dd>
+                            <h3>宜房贷</h3>
+                            <p>宜信普惠信息咨询（北京）有限公司上海分公司</p>
+                            <table class="table-info table-full nobd" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="col-t">联系人：</td>
+                                    <td></td>
+                                    <td class="col-t">联系电话：</td>
+                                    <td></td>
+                                    <td class="col-t">QQ/MSN：</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-t">公司地址：</td>
+                                    <td colspan="5">上海市黄埔张杨路1100号</td>
+                                </tr>
+                            </table>
+                        </dd>
+                    </dl>
+                    <div class="line-a"></div>
+
+                    <table class="table-info table-full" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="col-t">还款方式</td>
+                            <td></td>
+                            <td class="col-t">利率</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="col-t">额度范围</td>
+                            <td></td>
+                            <td class="col-t">放款时间</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="col-t">QQ/MSN</td>
+                            <td></td>
+                            <td class="col-t">E-MAIL</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="col-t">产品特点</td>
+                            <td colspan="3"><div class="col-info"></div></td>
+                        </tr>
+                    </table>
+                </div> <!--//.loan-info-->
 
                 <div class="detail">
                     <div class="d-head">
@@ -125,7 +127,7 @@
 
                     </div>
                 </div> <!--//.detail-->
-                
+
             </div> <!--//.article-->
         </div> <!--//.main-->
 
