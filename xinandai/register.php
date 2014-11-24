@@ -137,6 +137,8 @@
 <?php include("common/footer.php"); ?>
 <script>
 $(function(){
+    var phone = /^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(17(0|[6-8]))|(18([0-3]|[5-9])))\d{8}$/;
+    var email = (/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/);
     function JS_tab_nav(tab_nav,tab_con,selected,tri_type){
         $tab_obj=$(tab_nav);
         $tab_obj.bind(tri_type,function(){
@@ -158,6 +160,8 @@ $(function(){
     }).blur(function(){
         if($(this).val() == ""){
             tipinfo(this,"error","手机号不能为空");
+        }else if( !phone.test( $(this).val() ) ){
+            tipinfo(this,"error","请输入有效的手机号码");
         }else if($(this).val()){
             tipinfo(this,"success","正确");
         }
@@ -171,7 +175,7 @@ $(function(){
     }).blur(function(){
         if($(this).val() == ""){
             tipinfo(this,"error","邮箱地址不能为空");
-        }else if( !/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/.test( $(this).val() ) ){
+        }else if( !email.test( $(this).val() ) ){
             tipinfo(this,"error","请输入正确的邮箱地址");
         }else{
             tipinfo(this,"success","正确");
