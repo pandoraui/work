@@ -11,7 +11,7 @@ a.btn:hover{text-decoration: none;}
 .btn-info{padding:7px 20px;background: #00b050; color: #fff; font-size: 14px;}
 .btn-info:hover{color: #fff;}
 ul.inline,dl.inline{display: block;}
-ul.inline li{display: inline-block;*display: inline;*zoom:1;}
+ul.inline li{display: inline-block;*display: inline;*zoom:1; float: left;}
 ul.inline li a {display: block;}
 .dl-hor{overflow: hidden;}
 .dl-hor dt{float:left;display: inline;}
@@ -105,8 +105,14 @@ table.nobd td{border:none;}
 .nav-main{float:left;}
 .nav-sub{float:right;}
 
+/* adlist */
+.topimg{margin-top:10px;margin-bottom: 10px; overflow: hidden;}
+.toplist{margin-right: -20px;}
+.toplist li{border: 1px solid #d9d9d9; margin-right: 10px;width: 190px;height: 90px;overflow: hidden;}
+.toplist li img{width: 190px;height: 90px;}
+
 /* cate */
-.cate{border:1px solid #d9d9d9;border-top:none;padding:10px 10px 8px;margin-bottom: 20px;}
+.cate{border:1px solid #d9d9d9;border-top:none;padding:10px 10px 8px;margin-bottom: 10px;}
 .cate .cate-item{margin-bottom: 5px;}
 .cate dt,.cate dd{line-height: 28px;}
 .cate dt{width: 50px; text-align: right;margin-right: 20px;}
@@ -142,7 +148,8 @@ table.nobd td{border:none;}
 /* wrapbox_1 */
 .wrapbox_1{/*margin-top:20px;*/margin-bottom: 20px;}
 .wrapbox_1 .side{float:right; display: inline;margin-left:20px;width: 232px;padding-top: 20px;}
-.side .side-img{border:1px solid #d9d9d9;height: 600px;margin-bottom: 20px;}
+.side .side-img{border:1px solid #d9d9d9;height: 200px;margin-bottom: 20px; overflow: hidden;}
+.side-img img{ width:230px;height: 200px;}
 .side .side-info{ background: #ecf2fa; min-height: 160px;_height:160px; padding:10px; font-size: 14px;}
 .main{overflow: hidden;}
 .article{margin-top: 20px;}

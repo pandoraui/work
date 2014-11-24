@@ -11,6 +11,8 @@
 <?php include("common/header.php"); ?>
 <div class="wrap">
     <?php include("el-cate.php"); ?>
+    
+    <?php include("el-topad.php"); ?>
 
     <div class="wrapbox_1 clearfix">
         <div class="nav-tabs">
