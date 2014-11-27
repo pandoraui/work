@@ -78,11 +78,12 @@ table.nobd td{border:none;}
 /*footer*/
 .footer-wrap{height:190px;margin:10px auto 0;}
 .footer-in{height:10px;padding:10px;visibility: hidden;}
-.footer{min-height: 100%; }
-.footer-info{position:absolute;width:100%;bottom:0;background: #c5d9f1;border-top:3px solid #0070c0;height: 160px;padding-top: 10px;}
+.footer{min-height: 100%; color:#666b76;font-size:13px;font-family:"Microsoft YaHei",\5FAE\8F6F\96C5\9ED1;}
+.footer-info{position:absolute;width:100%;bottom:0;background: #fff;border-top:2px solid #327fc7;height: 160px;padding-top: 10px;}
 .footer p{margin: 10px;}
-.footer-link a{color:#333;padding:5px 20px 5px 0;}
-.footer-link a:hover{color:red;}
+.footer i{font-family:\5b8b\4f53,Tahoma,Arial,sans-serif;color:#888;padding:0 5px;}
+.footer-link a{color:#333;padding:5px 0;color:#196dc4;}
+.footer-link a:hover{color:#f60;}
 
 /* .friend-links */
 .friend-links{border:1px solid #d9d9d9;margin:20px 0;}
@@ -206,11 +207,6 @@ table.nobd td{border:none;}
 .upload-logo{min-height: 60px; _height:60px; }
 
 
-
-
-
-
-
 /* register */
 .regtabs {border-bottom:3px solid #00b050;height: 36px;line-height: 36px;font-size: 14px;}
 .regtabs a{color:#000;}
@@ -254,4 +250,44 @@ p.xinfo{display:inline-block;*display:inline;*zoom:1;padding-left:10px;line-heig
 
 .verifyphone{background: #f56f0b;width: 126px;height: 36px;line-height: 36px; text-align: center; font-weight: bold;color: #fff;}
 .verifyphone:hover{color: #fff;}
+
+
+/* login */
+.login .wrap{width:800px;}
+.login .header{margin:40px auto 10px;}
+.login-logo{display:inline-block;width:360px;padding-top:1px;height:60px;position:relative;}
+.login-logo .logo,.login-logo .vline,.login-logo h2{float:left;}
+.login-logo .logo{position:static;display:inline-block;}
+.login-logo .vline{display:inline-block;margin:5px 10px;width:0;height:50px;border-left:1px solid #d9d9d9;}
+.login-logo h2{color: #333333;display:inline-block;margin-top: 16px;font-size: 28px;font-weight: normal;font-family:"Microsoft YaHei",\5FAE\8F6F\96C5\9ED1;}
+
+.login-outer{height:400px;width: 100%; background: url(../img/login-bg.png) repeat-x;}
+.login-inner{height: 327px; width: 100%; background: url(../img/login-box.jpg) top center;}
+.login-inner .login-box{width:800px;background: url(../img/login-box.jpg) top center no-repeat;}
+.login-box{height:405px;}
+
+.login-form{padding-top:1px; position:relative;}
+.login-fbox{width:388px;margin-top:20px; position:absolute;right:0;}
+.login-top{width:360px;height:96px;margin:0 auto;background: url(../img/login-top.gif) top center no-repeat;}
+.login-con{width:360px;height:246px;margin:0 auto;background: url(../img/login-fbg.png) top center repeat-y;}
+.login-bot{width:360px;height:37px;margin-left:9px;background: url(../img/login-bot.gif) top center no-repeat;}
+
+.login-table{color:gray;margin-left: 30px;}
+.login-table .xtr{height:40px;}
+.login-table td{padding-top:1px;}
+.login-table input{height: 28px;line-height: 28px;width: 90px;vertical-align: middle;border: 1px solid #CCC;padding-left: 5px;}
+.login-table .xtr input{width: 220px;}
+.login-table .xtr .tr{padding-top:9px;}
+.login-table a{color:#196dc4;}
+.login-table a:hover{color:#f60;}
+.btn-green{display:inline-block;width:100px;height: 34px;font-family:"Microsoft YaHei",\5FAE\8F6F\96C5\9ED1;cursor: pointer;font-size: 16px;color: #fff;background: url(../img/green-btn-bg.png) repeat-x;border: 1px solid #408B01;}
+
+
+
+
+
+
+
+
+
 
