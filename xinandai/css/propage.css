@@ -84,6 +84,9 @@ table.nobd td{border:none;}
 .footer i{font-family:\5b8b\4f53,Tahoma,Arial,sans-serif;color:#888;padding:0 5px;}
 .footer-link a{color:#333;padding:5px 0;color:#196dc4;}
 .footer-link a:hover{color:#f60;}
+.login .footer-wrap{display:none;}
+.login .footer{margin-top: 40px;}
+.login .footer-info{position: static;}
 
 /* .friend-links */
 .friend-links{border:1px solid #d9d9d9;margin:20px 0;}
