@@ -1,7 +1,13 @@
 
 <!-- 通用底部 -->
 
-
+<div id="fixed-tools" class="hidden-xs hidden-sm">
+    <a id="backtop" class="border-bottom" href="#">回顶部</a>
+    <div class="qrcode-wrapper">
+        <a><span class="glyphicon glyphicon-qrcode"></span></a>
+        <img id="qrcode" class="border" src="img/g-wechat.png">
+    </div>
+</div> <!-- //.tools -->
 
 
 <!-- JS 引用规划

@@ -10,8 +10,7 @@
 <link rel="stylesheet" href="http://pic.lvmama.com/min/index.php?f=styles/v5/propage.css">
 
 -->
-
-<!-- 下面这是预览页面使用的样式，不要上线 -->
+<!-- 新增HTML5标签，此项目不支持IE9以下浏览器 -->
 <link rel="stylesheet" href="static/css/base.css" >
 <link rel="stylesheet" href="static/css/modules.css" >
 <link rel="stylesheet" href="css/propage.css" >
