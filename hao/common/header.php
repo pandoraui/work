@@ -18,30 +18,30 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="//hao.guessu.com/" class="navbar-brand" rel="home">猜你喜欢</a>
+            <a href="//hao.guessu.com/" class="brand" rel="home">猜你喜欢</a>
         </div>
-        <form action="/search" class="header-search navbar-form navbar-left">
+        <form class="header-search navbar-form navbar-left">
             <button type="submit" class="btn btn-link"><span class="sr-only">搜索</span><span class="glyphicon glyphicon-search"></span></button>
             <input type="text" class="form-control" placeholder="Search...">
         </form>
         <nav id="navbar" class="collapse navbar-collapse" role="navigation">
-            <ul class="nav nav-pills pull-left" role="tablist">
-                <li class="active"><a href="/">问答</a></li>
+            <ul class="menu nav nav-pills pull-left" role="tablist">
+                <li><a href="/">问答</a></li>
                 <li><a href="/blogs">文章</a></li>
                 <li><a href="/events">活动</a></li>
                 <li><a href="/tags">标签</a></li>
                 <li><a href="/users">榜单</a></li>
-                <!-- <li>
-                <a data-toggle="dropdown" href="/sites" class="more dropdownBtn">
-                &middot;&middot;&middot;<span class="sr-only">更多</span>
-                </a>
-                <ul class="dropdown-menu">
-                <li><a href="/sites">子站</a></li>
-                </ul>
-                </li> -->
+                <li>
+                    <a data-toggle="dropdown" href="/sites" class="more dropdownBtn">
+                        &middot;&middot;&middot;<span class="sr-only">更多</span>
+                    </a>
+                   <!--  <ul class="dropdown-menu">
+                    <li><a href="/sites">子站</a></li>
+                    </ul> -->
+                </li>
             </ul>
-            <ul class="opts nav navbar-nav navbar-right hidden-xs">
-                <li class="opts-item"> 无需注册 <a id="login" href="/user/login">直接登录</a></li>
+            <ul class="opts nav pull-right hidden-xs">
+                <li class="opts-item"> 无需注册 <a class="em" href="/user/login">直接登录</a></li>
             </ul>
         </nav>
     </div>

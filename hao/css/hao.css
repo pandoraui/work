@@ -20,16 +20,20 @@ h1.logo{}
 .header{position:relative;height:54px; background:#222e2a;}
 
 /* logo */
-a.navbar-brand{ float:left; background:url(../img/logo.png) left center no-repeat; width:120px; height:30px; text-indent:-9999px;/* border-right:1px solid #444;*/ margin:10px 10px 0 0}
-.header-search {position: relative;margin: 10px 0 0 20px;}
+a.brand{ float:left; background:url(../img/logo.png) left center no-repeat; width:120px; height:30px; text-indent:-9999px;/* border-right:1px solid #444;*/ margin:10px 0 0}
+.header-search {position: relative;z-index:10;width: 210px;margin: 10px 0 0 20px;padding:0;}
 .header-search .btn{position: absolute;}
 
 .header-search .form-control{padding-left: 35px;border-color: transparent;height: 34px;background: #3F4F49;color: #fff;}
-.header-search .form-control{width: 180px;}
-.header-search .form-control:focus{width: 480px; background: #52605B}
-.header-search .form-control:focus+span{display: none; }
-.header .nav{margin:12px 0 0 10px;}
-.header .nav a{padding: 0 9px;height:30px;line-height: 30px;}
+.header-search .form-control:focus{width: 520px; background: #52605B;}
+/*.header-search .form-control:focus+#navbar{display: none; }*/
+.header .menu,.header .opts{margin:12px 0 0 10px;}
+.header .nav{position: relative;;z-index: 9;}
+.header .nav li {padding: 0;margin: 0;vertical-align: middle;color: #A4BFB4;}
+.header .nav a{padding: 0 9px;height:30px;line-height: 30px;font-size: 16px;font-weight: bold;text-decoration: none;}
+.header .menu a:hover{background-color: #3F4F49;}
+
+.header .opts-item>a.em {background-color: #009A61;color: #FFF;margin-left: 10px;}
 /*.header-search:focus+#navbar{display: none;}*/
 
 .header li>a {display: inline-block;color: #A4BFB4;border-radius: 2px;}

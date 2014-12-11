@@ -14,11 +14,11 @@
         <?php include("side.php"); ?>
     </div> <!-- //.side -->
     <div class="main">
-        <div class="m-title">今天，将获得什么福利呢？ <a href="#" class="btn btn-primary">Publish</a></div>
+        <div class="m-title">今天，有什么心得感悟分享给大家呢？ <a href="#" class="btn btn-primary">撰写文章</a></div>
         <ul class="nav nav-tabs">
-            <li class="active"><a href="/list/newest">最新的</a></li>
+            <li class="active"><a href="/list">推荐的</a></li>
+            <li><a href="/list/newest">全部的</a></li>
             <li><a href="/list/hottest">热门的</a></li>
-            <li><a href="/list/undo">未审核</a></li>
         </ul>
         <?php include("list.php"); ?>
     </div> <!-- //.main -->
