@@ -12,5 +12,7 @@
 -->
 <!-- 新增HTML5标签，此项目不支持IE9以下浏览器 -->
 <link rel="stylesheet" href="static/css/base.css" >
-<link rel="stylesheet" href="static/css/modules.css" >
-<link rel="stylesheet" href="css/propage.css" >
+<link rel="stylesheet" href="static/css/bootstrap.min.css" >
+<!-- <link rel="stylesheet" href="static/css/docs.min.css" > -->
+<!-- <link rel="stylesheet" href="static/css/modules.css" > -->
+<link rel="stylesheet" href="css/hao.css" >

@@ -1,24 +1,41 @@
 
-body{font:12px/22px Tahoma,Arial,\5b8b\4f53; color:#333; background:url(../img/bg.jpg) #fff center top no-repeat;}
+/* ------------------------------------------------------------
+  Pro: hao样式
+  Create: 2014-12-11
+  Update: 2014-12-11
+------------------------------------------------------------ */
 
-.element-invisible {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-}
-
+body{font:12px/1.5 Tahoma,Arial,\5b8b\4f53,sans-serif;}
+body{font:14px/1.5 "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,sans-serif;}
 .wrap{width:980px;}
 
-/* header */
-.header{position:relative;height:50px; background:#000;}
+.pull-left{}
 
-/* hasfixed 
-#hasfixed{margin-top: 71px;}
-#hasfixed .header{position: fixed;top: 0;left: 0;width: 100%;z-index: 999;}
+
+/* header */
+.global-nav {}
+h1.logo{}
+
+/* header */
+.header{position:relative;height:54px; background:#222e2a;}
 
 /* logo */
-.brand{ float:left; background:url(../img/logo.png) left center no-repeat; width:140px; height:30px; text-indent:-9999px; border-right:1px solid #444; margin:10px 20px 0 0}
+a.navbar-brand{ float:left; background:url(../img/logo.png) left center no-repeat; width:120px; height:30px; text-indent:-9999px;/* border-right:1px solid #444;*/ margin:10px 10px 0 0}
+.header-search {position: relative;margin: 10px 0 0 20px;}
+.header-search .btn{position: absolute;}
+
+.header-search .form-control{padding-left: 35px;border-color: transparent;height: 34px;background: #3F4F49;color: #fff;}
+.header-search .form-control{width: 180px;}
+.header-search .form-control:focus{width: 480px; background: #52605B}
+.header-search .form-control:focus+span{display: none; }
+.header .nav{margin:12px 0 0 10px;}
+.header .nav a{padding: 0 9px;height:30px;line-height: 30px;}
+/*.header-search:focus+#navbar{display: none;}*/
+
+.header li>a {display: inline-block;color: #A4BFB4;border-radius: 2px;}
 
 /* nav */
+/*
 .menu,.quick-menu{ padding:0;text-shadow:1px 1px 1px #33363B;position:relative;z-index:2;}
 .menu{float:left;margin:10px 20px 0 0;font-size:14px;}
 .quick-menu{float:right;margin-top:10px;}
@@ -42,7 +59,7 @@ body{font:12px/22px Tahoma,Arial,\5b8b\4f53; color:#333; background:url(../img/b
 .dropdown i{display:inline-block;margin:0 0 0 3px;position:relative;top:-2px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #999}
 
 .quick-menu a{padding:5px 10px;}
-
+*/
 /* search-form */
 .search-form{float:left;margin-top:10px;}
 .search-form input{float: left;}
@@ -51,17 +68,5 @@ body{font:12px/22px Tahoma,Arial,\5b8b\4f53; color:#333; background:url(../img/b
 .search-submit{background-color: #8CAC52;border-radius: 0 2px 2px 0;height: 28px;color:#fff;padding:0 10px;border: none;cursor: pointer;}
 .search-submit:hover{background-color: #7BAB2E;}
 
-/* xOne 测试项目
-============================================================ */
 
-/* .navbar
-============================================================ */
-
-.special_menu{padding:10px; font-size:12px;line-height:22px;overflow:hidden}
-.special_menu a{margin-right:10px;color:#333;}
-.special_menu h4{float:left;padding-right:10px;}
-
-
-
-
-
+/* footer */
