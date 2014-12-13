@@ -1,0 +1,172 @@
+#carousel-recommend-event {
+    margin-bottom: 20px;
+    height: 282px;
+    border-radius: 2px;
+    overflow: hidden
+}
+
+.all-event-list {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.all-event-list [class*=col-md] {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.widget-event {
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    background: #f3f3f3;
+    height: 282px;
+    border-radius: 2px;
+    overflow: hidden
+}
+
+.widget-event__banner {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    background-color: #fff
+}
+
+.widget-event__info {
+    padding: 15px 15px 0
+}
+
+.widget-event__info .title {
+    margin: 0;
+    font-size: 16px;
+    max-height: 38px;
+    overflow: hidden
+}
+
+.widget-event__info .title a {
+    color: #333
+}
+
+.widget-event__info .btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px
+}
+
+.widget-event__meta {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #999
+}
+
+.event-summary {
+    margin: 0;
+    background: #f3f3f3
+}
+
+.event-summary__pic {
+    margin-left: -15px
+}
+
+.event-summary__pic img {
+    background-color: #fff
+}
+
+.event-summary__info {
+    padding-top: 25px
+}
+
+.event-summary__info th,.event-summary__info td {
+    padding-bottom: 5px;
+    vertical-align: top
+}
+
+.event-summary__info th {
+    width: 75px;
+    color: #666;
+    font-weight: normal
+}
+
+.event-summary__info tr:last-child td {
+    padding: 15px 0 0
+}
+
+.event-summary__map {
+    margin-left: 15px;
+    padding: 0;
+    border-left: 1px dashed #ddd
+}
+
+.event-summary .map {
+    height: 271px
+}
+
+.joined-user li {
+    padding: 0;
+    margin-bottom: 5px
+}
+
+.fmt h1,.fmt h2 {
+    color: #D0021B;
+    border: none
+}
+
+.fmt h2 {
+    padding: 0
+}
+
+.sponsors {
+    list-style: none;
+    margin: -20px 0 20px 20px
+}
+
+select.form-control {
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.cal {
+    line-height: 1.25;
+    font-size: 13px
+}
+
+.cal strong {
+    font-size: 18px
+}
+
+.stream-list__item .cal.pull-left {
+    margin-right: 20px
+}
+
+.activity-join-other {
+    display: none
+}
+
+.side .event-summary__pic {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.side .event-summary__info {
+    padding: 20px;
+    width: 100%
+}
+
+.side .event-summary__map {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 1px dashed #ddd;
+    width: 100%
+}
+
+.side .event-summary .map {
+    height: 120px
+}
+
+.side .event-summary tr:last-child {
+    display: none
+}

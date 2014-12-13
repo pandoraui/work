@@ -10,7 +10,8 @@ body{font:14px/1.5 "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,sans-ser
 .wrap{width:980px;}
 
 .pull-left{}
-
+.mt0{margin-top:0;}
+.mb20{margin-bottom: 20px;}
 
 /* header */
 .global-nav {}
@@ -22,6 +23,7 @@ h1.logo{}
 /* logo */
 a.brand{ float:left; background:url(../img/logo.png) left center no-repeat; width:120px; height:30px; text-indent:-9999px;/* border-right:1px solid #444;*/ margin:10px 0 0}
 .header-search {position: relative;z-index:10;width: 210px;margin: 10px 0 0 20px;padding:0;}
+/*.header .icon-bar{background-color: #fff;}*/
 .header-search .btn{position: absolute;}
 
 .header-search .form-control{padding-left: 35px;border-color: transparent;height: 34px;background: #3F4F49;color: #fff;}
@@ -38,32 +40,9 @@ a.brand{ float:left; background:url(../img/logo.png) left center no-repeat; widt
 
 .header li>a {display: inline-block;color: #A4BFB4;border-radius: 2px;}
 
-/* nav */
-/*
-.menu,.quick-menu{ padding:0;text-shadow:1px 1px 1px #33363B;position:relative;z-index:2;}
-.menu{float:left;margin:10px 20px 0 0;font-size:14px;}
-.quick-menu{float:right;margin-top:10px;}
+[class*="avatar-"] {border-radius: 2px;}
 
-.nav li{ list-style-type:none; padding:0;float:left;position:relative;margin:0 1px 0 0}
-.nav li a{color:#ddd;padding:5px 12px 6px;height:20px;line-height:20px;display:block;cursor: pointer;}
-.nav li a:hover {text-decoration: none;}
 
-.nav a:hover,.nav .active a{color:#fff;background-color:#82CC00;}
-
-.nav-pills a,.active a{border-radius:3px}
-.nav li:hover a{background-color:#132e00;color:#fff;}
-.nav .active:hover a{background-color:#82CC00;}
-.dropdown:hover .dropdown-menu {display:block}
-
-.sub-menu{position:absolute;top:28px;left:0;border-radius:0 0 4px 4px;min-width:106px;z-index:10;display:none;padding:4px 0;background-color:#132e00;line-height: 18px;font-size: 12px;}
-.sub-menu li{float:none;margin-right: 0}
-.sub-menu li a{padding:5px 12px;color:#bbb;display: block;}
-.sub-menu li a:hover{background-color:#0f2500;color:#82CC00}
-
-.dropdown i{display:inline-block;margin:0 0 0 3px;position:relative;top:-2px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #999}
-
-.quick-menu a{padding:5px 10px;}
-*/
 /* search-form */
 .search-form{float:left;margin-top:10px;}
 .search-form input{float: left;}

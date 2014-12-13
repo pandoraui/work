@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php include("common/header.php"); ?>
-<div class="wrap">
+<div class="wrap hide">
     <div class="side">
         <?php include("side.php"); ?>
     </div> <!-- //.side -->
@@ -23,7 +23,7 @@
         <?php include("list.php"); ?>
     </div> <!-- //.main -->
 </div>
-<div class="wrap">
+<div class="wrap hide">
     <a href="/feeds" class="feed-link">订阅本页 RSS</a>
 </div>
 

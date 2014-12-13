@@ -20,7 +20,7 @@
             </button>
             <a href="//hao.guessu.com/" class="brand" rel="home">猜你喜欢</a>
         </div>
-        <form class="header-search navbar-form navbar-left">
+        <form class="header-search navbar-form navbar-left hidden-sm hidden-xs">
             <button type="submit" class="btn btn-link"><span class="sr-only">搜索</span><span class="glyphicon glyphicon-search"></span></button>
             <input type="text" class="form-control" placeholder="Search...">
         </form>
@@ -40,7 +40,7 @@
                     </ul> -->
                 </li>
             </ul>
-            <ul class="opts nav pull-right hidden-xs">
+            <ul class="opts nav pull-right hide">
                 <li class="opts-item"> 无需注册 <a class="em" href="/user/login">直接登录</a></li>
             </ul>
         </nav>
