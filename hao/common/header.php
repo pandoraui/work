@@ -26,11 +26,11 @@
         </form>
         <nav id="navbar" class="collapse navbar-collapse" role="navigation">
             <ul class="menu nav nav-pills pull-left" role="tablist">
-                <li><a href="/">问答</a></li>
-                <li><a href="/blogs">文章</a></li>
-                <li><a href="/events">活动</a></li>
-                <li><a href="/tags">标签</a></li>
-                <li><a href="/users">榜单</a></li>
+                <li><a href="index.php">推荐</a></li>
+                <li><a href="list.php">列表</a></li>
+                <li><a href="events.php">活动</a></li>
+                <li><a href="tags.php">标签</a></li>
+                <li><a href="ranks.php">榜单</a></li>
                 <li>
                     <a data-toggle="dropdown" href="/sites" class="more dropdownBtn">
                         &middot;&middot;&middot;<span class="sr-only">更多</span>

@@ -14,18 +14,14 @@
         <div class="row">
             <div class="col-md-6 ranking-section mini">
                 <h2 class="h3">
-                    今天
-                    <small>
-                        还剩
-                        <span id="countDown"></span>
-                    </small>
+                    今天<small>还剩<span id="countDown"></span></small>
                 </h2>
                 <div class="row">
                     <ul class="list-unstyled col-md-6">
                         <li class="media">
                             <span class="pull-left pos">1.</span>
                             <a class="pull-left media-object" href="#">
-                                <img class="avatar" src="http://static.segmentfault.com/global/img/user-64.png?14.3.24.1" alt=""></a>
+                                <img class="avatar" src="img/icon-site.png" alt=""></a>
                             <div class="media-body">
                                 <h3 class="media-heading h5 name">
                                     <a href="#">dshbusiness</a>
@@ -137,7 +133,7 @@
                         <li class="media">
                             <span class="pull-left pos">9.</span>
                             <a class="pull-left media-object" href="#">
-                                <img class="avatar" src="http://static.segmentfault.com/global/img/user-64.png?14.3.24.1" alt=""></a>
+                                <img class="avatar" src="img/icon-site.png" alt=""></a>
                             <div class="media-body">
                                 <h3 class="media-heading h5 name">
                                     <a href="#">能想的呆子</a>
