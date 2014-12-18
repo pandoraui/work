@@ -6,9 +6,14 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 //var routes = require('./routes/index');
-var users = require('./routes/users');
+//var users = require('./routes/users');
 
 var routes = require('./routes/index');
+var settings = require('./settings');
+var flash = require('connect-flash');
+var session = require('express-session');
+var MongoStore = require('connect-mongo')(session);
+
 var app = express();
 
 app.set('port', process.env.PORT || 3000);
@@ -16,6 +21,8 @@ app.set('port', process.env.PORT || 3000);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+app.use(flash());
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -32,7 +39,19 @@ app.listen(app.get('port'), function() {
 });
 
 app.use('/', routes);
-app.use('/users', users);
+//app.use('/users', users);
+
+app.use(session({
+    secret: settings.cookieSecret,
+    key: settings.db,   //cookie name
+    cookie: {maxAge: 1000*3600*24*30},  //30 days
+    store: new MongoStore({
+        db: settings.db,
+        host: settings.host,
+        port: settings.port
+    })
+}));
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
